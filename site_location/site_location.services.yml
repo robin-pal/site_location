@@ -1,0 +1,3 @@
+services:
+  site_location.time_conversion:
+    class: Drupal\site_location\TimeConversionService

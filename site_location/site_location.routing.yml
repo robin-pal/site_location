@@ -1,0 +1,7 @@
+site_location.location_settings_form:
+  path: '/admin/config/set_location/settings'
+  defaults:
+    _form: '\Drupal\site_location\Form\locationSettingsForm'
+    _title: 'Set Location and Timezone'
+  requirements:
+    _permission: 'administer site configuration'
